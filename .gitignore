@@ -7,6 +7,7 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv312/
 venv/
 env/
 .pytest_cache/
@@ -18,3 +19,4 @@ env/
 
 # generated
 *.log
+atlas-credentials.env
