@@ -1,4 +1,3 @@
-cat > db_scripts/schema.sql <<'SQL'
 USE ecocompute;
 
 CREATE TABLE clients (
