@@ -38,3 +38,31 @@ INSERT INTO maintenance_logs
 (10, 1, '2026-10-10 10:00:00', 'Routine maintenance', 'Scheduled preventive maintenance', 'Resolved', 'Neha'),
 (11, 3, '2026-10-11 11:30:00', 'Fan failure', 'Fan performance below expected level', 'In Progress', 'Rahul'),
 (12, 5, '2026-10-12 14:00:00', 'Hardware fault', 'Diagnostic check required', 'Open', 'Priya');
+
+INSERT INTO maintenance_logs
+(rack_id, maintenance_date, issue_type, description, status, technician) VALUES
+(2, '2026-10-13 09:00:00', 'Overheating', 'Temperature rising above normal', 'Open', 'Amit'),
+(4, '2026-10-13 10:00:00', 'Fan failure', 'Cooling fan requires replacement', 'Resolved', 'Neha'),
+(6, '2026-10-13 11:00:00', 'Cooling failure', 'Cooling unit inspection required', 'In Progress', 'Rahul'),
+(8, '2026-10-13 12:00:00', 'Power fluctuation', 'Power supply needs inspection', 'Open', 'Priya'),
+(9, '2026-10-13 13:00:00', 'Hardware fault', 'Server hardware diagnostic required', 'Resolved', 'Amit'),
+(1, '2026-10-14 09:00:00', 'Cooling failure', 'Cooling system needs cleaning', 'Resolved', 'Neha'),
+(3, '2026-10-14 10:00:00', 'Overheating', 'Rack temperature exceeded limit', 'In Progress', 'Rahul'),
+(5, '2026-10-14 11:00:00', 'Routine maintenance', 'Preventive system check', 'Resolved', 'Priya'),
+(7, '2026-10-14 12:00:00', 'Fan failure', 'Fan performance is low', 'Open', 'Amit'),
+(2, '2026-10-14 13:00:00', 'Hardware fault', 'Component inspection required', 'In Progress', 'Neha'),
+(4, '2026-10-15 09:00:00', 'Power fluctuation', 'Voltage variation detected', 'Resolved', 'Rahul'),
+(6, '2026-10-15 10:00:00', 'Overheating', 'High rack temperature detected', 'Open', 'Priya'),
+(8, '2026-10-15 11:00:00', 'Cooling failure', 'Cooling performance reduced', 'Resolved', 'Amit'),
+(9, '2026-10-15 12:00:00', 'Routine maintenance', 'Scheduled inspection completed', 'Resolved', 'Neha'),
+(1, '2026-10-15 13:00:00', 'Fan failure', 'Fan requires servicing', 'In Progress', 'Rahul'),
+(3, '2026-10-16 09:00:00', 'Power fluctuation', 'Power variation under observation', 'Open', 'Priya'),
+(5, '2026-10-16 10:00:00', 'Hardware fault', 'Hardware diagnostic completed', 'Resolved', 'Amit'),
+(7, '2026-10-16 11:00:00', 'Overheating', 'Temperature above operating range', 'In Progress', 'Neha'),
+(2, '2026-10-16 12:00:00', 'Cooling failure', 'Cooling unit requires servicing', 'Resolved', 'Rahul'),
+(4, '2026-10-16 13:00:00', 'Routine maintenance', 'Preventive maintenance check', 'Resolved', 'Priya'),
+(6, '2026-10-17 09:00:00', 'Fan failure', 'Cooling fan replacement required', 'Open', 'Amit'),
+(8, '2026-10-17 10:00:00', 'Power fluctuation', 'Power supply checked', 'Resolved', 'Neha'),
+(9, '2026-10-17 11:00:00', 'Cooling failure', 'Cooling unit performance issue', 'In Progress', 'Rahul'),
+(1, '2026-10-17 12:00:00', 'Hardware fault', 'Server component inspected', 'Resolved', 'Priya'),
+(5, '2026-10-17 13:00:00', 'Overheating', 'Rack temperature requires monitoring', 'Open', 'Amit');
